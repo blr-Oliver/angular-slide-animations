@@ -1,2 +1,2 @@
 # angular-slide-animations
-Minimal angular.js implementations of slide-to-side animations
+Minimal angular.js implementation of slide-to-side animations
