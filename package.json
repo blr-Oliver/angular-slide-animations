@@ -4,6 +4,7 @@
   "description": "Minimal angular.js implementation of slide-to-side animations",
   "main": "ng-slide-animations.min.js",
   "scripts": {
+    "prepublish": "npm run-script build",
     "build": "uglifyjs src/ng-slide-animations.js -o ng-slide-animations.min.js -c -m"
   },
   "repository": {
