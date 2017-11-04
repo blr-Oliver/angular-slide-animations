@@ -1,7 +1,7 @@
 {
   "name": "ng-slide-animations",
   "description": "Minimal angular.js implementation of slide-to-side animations",
-  "main": "ng-slide-animations.min.js",
+  "main": "src/ng-slide-animations.js",
   "authors": [
     "Vasily Liaskovsky <vasily.liaskovsky@gmail.com>"
   ],
