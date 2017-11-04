@@ -23,7 +23,7 @@ angular.module('ngSlideAnimations', ['ngAnimate']).factory('slideAnimations', ['
       if(e.propertyName == dimension || !e.propertyName){
         element.off('transitionend', finisher);
         element.css(dimension, oldSize);
-        done();
+        done && done();
       }
     });
   }
