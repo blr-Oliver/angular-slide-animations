@@ -1,4 +1,4 @@
-angular.module('slideAnimations', ['ngAnimate']).factory('slideAnimations', ['$window', function($window){
+angular.module('ngSlideAnimations', ['ngAnimate']).factory('slideAnimations', ['$window', function($window){
 
   var CURRENT = 'current';
   function animateSizeAndReset(element, dimension, from, to, done){
