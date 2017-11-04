@@ -1,0 +1,37 @@
+{
+  "name": "ng-slide-animations",
+  "version": "1.0.0",
+  "description": "Minimal angular.js implementation of slide-to-side animations",
+  "main": "ng-slide-animations.min.js",
+  "scripts": {
+    "build": "uglifyjs src/ng-slide-animations.js -o ng-slide-animations.min.js -c -m"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blr-Oliver/ng-slide-animations.git"
+  },
+  "keywords": [
+    "angular",
+    "angularjs",
+    "slide",
+    "animation",
+    "ngAnimate",
+    "slideDown",
+    "slideUp",
+    "slideLeft",
+    "slideRight"
+  ],
+  "dependencies": {
+    "angular": "^1.6.4",
+    "angular-animate": "^1.6.4"
+  },
+  "devDependencies": {
+    "uglify-js": "^3.1.6"
+  },
+  "author": "Vasily Liaskovsky <vasily.liaskovsky@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/blr-Oliver/ng-slide-animations/issues"
+  },
+  "homepage": "https://github.com/blr-Oliver/ng-slide-animations#readme"
+}
