@@ -1,4 +1,4 @@
-angular.module('ngSlideAnimations', ['ngAnimate']).factory('slideAnimations', ['$window', function($window){
+angular.module('ngSlideAnimations', []).factory('slideAnimations', ['$window', function($window){
   var transitionProperty = getPrefixed('transitionProperty');
   var transitionDuration = getPrefixed('transitionDuration')
 
@@ -6,8 +6,8 @@ angular.module('ngSlideAnimations', ['ngAnimate']).factory('slideAnimations', ['
 
   function getPrefixed(prop){
     //based on https://stackoverflow.com/questions/7264899/detect-css-transitions-using-javascript-and-without-modernizr#answer-13081497
-    var style = $document[0].createElement('p').style, prefixes = ['ms', 'O', 'Moz', 'Webkit'];
-    if(style[prop] == '')
+    var style = angular.element('<p/>')[0].style, prefixes = ['ms', 'O', 'Moz', 'Webkit'];
+    if(typeof(style[prop]) === 'string')
       return prop;
     prop = prop.charAt(0).toUpperCase() + prop.substr(1);
     for (var i = prefixes.length; i--;)
