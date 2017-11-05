@@ -1,6 +1,6 @@
 {
   "name": "ng-slide-animations",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Minimal angular.js implementation of slide-to-side animations",
   "main": "ng-slide-animations.min.js",
   "scripts": {
