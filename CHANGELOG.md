@@ -1,3 +1,7 @@
+## [1.1.1] - 2017-10-05
+### Fixed
+ - Fixed bower dependencies to match actual state 
+
 ## [1.1.0] - 2017-10-05
 ### Added
 - Meaningful readme with example
