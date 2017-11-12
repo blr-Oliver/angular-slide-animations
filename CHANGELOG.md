@@ -1,4 +1,4 @@
-## [Unrealesed]
+## [Unreleased]
 ### Fixed
  - Fixed changelog dates to show correct month 
 
